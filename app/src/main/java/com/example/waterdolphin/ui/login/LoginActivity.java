@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         final TextView tvlostpw = findViewById(R.id.tvlostpw);
         final TextView tvjoin = findViewById(R.id.tvjoin);
 
+        //Linkyfy 이용하여 '비밀번호를 잊으셨나요?' 및 '회원가입하기' 부분 하이퍼링크 생성(미완)
         String text1 = "비밀번호를 잊으셨나요?";
         String text2 = "회원가입하기";
 
@@ -134,6 +135,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        //로그인 성공 시 메인화면으로 넘어가게 하는 부분 구현 해야함(아직 미완)
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
